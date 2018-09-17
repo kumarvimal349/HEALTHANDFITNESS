@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.me.healthandfitnesstips.abs"
+    android:background="@drawable/back2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout" />
+
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="#dacccccc"
+            android:text="Bench Presses"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:layout_alignLeft="@+id/btn3"
+            android:layout_alignStart="@+id/btn3" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn2"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="#dacccccc"
+
+            android:text="Incline Presses "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn3"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_weight="1"
+            android:background="#dacccccc"
+
+            android:text="Dumbbell Presses"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn4"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_weight="1"
+            android:background="#dacccccc"
+
+            android:text="Parallel Bar Dips"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn5"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:background="#dacccccc"
+            android:layout_marginLeft="150dp"
+            android:text="Cable Crossover Flys " />
+
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="150dp"
+            android:layout_weight="1"
+            android:text="Dumbbell Flies"
+            android:background="#dacccccc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="Dumbbell Pullovers"
+            android:background="#dacccccc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn7"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Push-Ups"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn8"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Dumbbell Presses"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn9"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Barbell Bench Presses "
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn10"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Pec Deck Flies"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn11"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Decline Pushup"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn12"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/bench_presses"
+
+            android:id="@+id/imageView13"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignRight="@+id/imageView12"
+            android:layout_alignEnd="@+id/imageView12" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/incline_presses"
+
+            android:id="@+id/imageView12"
+            android:layout_alignTop="@+id/btn3"
+            android:layout_toLeftOf="@+id/btn2"
+            android:layout_toStartOf="@+id/btn2" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/dumbbell_presses"
+
+            android:id="@+id/imageView10"
+            android:layout_alignTop="@+id/btn4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/parallel_bar_dips"
+
+            android:layout_alignTop="@+id/btn5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/cable_crossover_flys"
+
+            android:layout_above="@+id/btn7"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/dumbbell_flyes"
+
+            android:layout_above="@+id/btn8"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/dumbbell_pullover"
+
+            android:layout_above="@+id/btn9"
+            android:id="@+id/imageView11" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/push_ups"
+
+            android:layout_above="@+id/btn10"
+            android:id="@+id/imageView16" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/decline_push_up"
+            android:layout_above="@+id/btn13"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView17" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dumbbell_presses"
+            android:layout_alignTop="@+id/btn10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/imageView12"
+            android:layout_alignEnd="@+id/imageView12"
+            android:layout_above="@+id/btn11" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/barbell_bench_presses"
+            android:layout_alignTop="@+id/btn11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/btn12"
+            android:layout_alignRight="@+id/imageView16"
+            android:layout_alignEnd="@+id/imageView16" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pec_deck_flyes"
+            android:layout_above="@+id/btn13"
+            android:layout_alignRight="@+id/imageView17"
+            android:layout_alignEnd="@+id/imageView17"
+            android:layout_alignTop="@+id/btn12" />
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

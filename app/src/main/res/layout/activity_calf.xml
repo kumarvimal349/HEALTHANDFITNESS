@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.me.healthandfitnesstips.abs"
+    android:background="@drawable/back2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout" />
+
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="#dacccccc"
+            android:text="Toe Raises"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:layout_alignLeft="@+id/btn3"
+            android:layout_alignStart="@+id/btn3" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn2"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="#dacccccc"
+
+            android:text="One Leg Toe Raises  "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn3"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_weight="1"
+            android:background="#dacccccc"
+
+            android:text="Seated Calf Raises "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn4"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_weight="1"
+            android:background="#dacccccc"
+
+            android:text="Barbell Calf Raise(Seated)"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn5"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:background="#dacccccc"
+            android:layout_marginLeft="150dp"
+            android:text="Barbell Calf Raise With Single Leg(Seated) " />
+
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="150dp"
+            android:layout_weight="1"
+            android:text="Dumbbell Calf Jump"
+            android:background="#dacccccc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="Dumbbell Calf Raise (Seated)"
+            android:background="#dacccccc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn7"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Standing Barbell Calf Raise"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn8"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Standing Dumbbell Calf Raise "
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn9"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/one_leg_raise"
+
+            android:id="@+id/imageView12"
+            android:layout_alignTop="@+id/btn3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/seated_dumbbell_calf_raise"
+
+            android:id="@+id/imageView10"
+            android:layout_alignTop="@+id/btn5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/barbell_calf_raise_with_single_leg_seated"
+
+            android:layout_alignTop="@+id/btn6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/images762"
+
+            android:layout_alignTop="@+id/btn7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/dumbbell_calf_raise"
+
+            android:layout_alignTop="@+id/btn8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/standing_barbell_calf_raise"
+
+            android:id="@+id/imageView11"
+            android:layout_alignTop="@+id/btn9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/standing_dumbbell_calf_raise"
+
+            android:id="@+id/imageView16"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/toe_raise"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/btn3"
+            android:layout_toLeftOf="@+id/btn2"
+            android:layout_toStartOf="@+id/btn2" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/seated_calf_raise"
+            android:layout_alignTop="@+id/btn4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/btn5"
+            android:layout_alignRight="@+id/imageView10"
+            android:layout_alignEnd="@+id/imageView10" />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

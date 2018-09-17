@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.me.healthandfitnesstips.abs"
+    android:background="@drawable/back2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout" />
+
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="#dacccccc"
+            android:text="Squats"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:layout_alignLeft="@+id/btn3"
+            android:layout_alignStart="@+id/btn3" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn2"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="#dacccccc"
+
+            android:text="Angled  Leg Presses "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn3"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_weight="1"
+            android:background="#dacccccc"
+
+            android:text="Leg Extensions"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn4"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_weight="1"
+            android:background="#dacccccc"
+
+            android:text="Dumbbell Lunges"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn5"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            android:background="#dacccccc"
+            android:layout_marginLeft="150dp"
+            android:text="Cable Back Kicks " />
+
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="150dp"
+            android:layout_weight="1"
+            android:text="Dumbbell Squats "
+            android:background="#dacccccc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="Front Squats"
+            android:background="#dacccccc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn7"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Power Squats"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn8"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Hack Squats "
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn9"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Seated Leg Curls "
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn10"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Barbell lunge "
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn11"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#dacccccc"
+            android:layout_weight="1"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Barbell Squat (Assisted)"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn12"
+            android:layout_marginLeft="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/squats"
+
+            android:id="@+id/imageView13"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignRight="@+id/imageView12"
+            android:layout_alignEnd="@+id/imageView12"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/angled_leg_presses"
+
+            android:id="@+id/imageView12"
+            android:layout_alignTop="@+id/btn3"
+            android:layout_alignRight="@+id/imageView10"
+            android:layout_alignEnd="@+id/imageView10"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/leg_extension"
+
+            android:layout_above="@+id/btn5"
+            android:id="@+id/imageView10" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/dumbbell_lunges"
+
+            android:layout_above="@+id/btn6"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/cable_back_kicks"
+
+            android:layout_above="@+id/btn7"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/dumbbell_squats"
+
+            android:layout_above="@+id/btn8"
+            />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/front_squats"
+
+            android:layout_above="@+id/btn9"
+            android:id="@+id/imageView11" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/power_squat"
+
+            android:layout_above="@+id/btn10"
+            android:id="@+id/imageView16" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/barbell_aquat_assisted"
+            android:layout_above="@+id/btn13"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView17" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/hack_squats"
+            android:layout_alignTop="@+id/btn10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/imageView12"
+            android:layout_alignEnd="@+id/imageView12"
+            android:layout_above="@+id/btn11" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/seated_leg_curls"
+            android:layout_alignTop="@+id/btn11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/btn12"
+            android:layout_alignRight="@+id/imageView16"
+            android:layout_alignEnd="@+id/imageView16" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/barbell_lunges"
+            android:layout_above="@+id/btn13"
+            android:layout_alignRight="@+id/imageView17"
+            android:layout_alignEnd="@+id/imageView17"
+            android:layout_alignTop="@+id/btn12" />
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="splash" type="id">splash</item>
+    <item name="lin_lay" type="id">lin_lay</item>
+</resources>
